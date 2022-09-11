@@ -1,29 +1,19 @@
-import { Button } from "bootstrap";
-import React, { useState } from "react";
+import React from "react";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import CalculateWinner from "./CalculateWinner";
 
 const Arena = ({ userPokemon, pokemons }) => {
-  //   const [showResult, setResult] = useState(false);
+
   const findUserPokemon = pokemons.find((pokemon) => {
     return pokemon.id === Number(userPokemon);
   });
 
   const randomEnemyId = Math.floor(Math.random() * pokemons.length);
-  //   console.log(randomEnemyId);
 
   const findEnemyPokemon = pokemons.find((pokemon) => {
     return pokemon.id === Number(randomEnemyId);
   });
-
-  //   const battleResult = () => {
-  //     if (!findEnemyPokemon || !findUserPokemon) {
-  //       <h1>Loading</h1>;
-  //     } else {
-  //       return CalculateWinner(findUserPokemon, randomEnemyId);
-  //     }
-  //   };
 
   if (!findUserPokemon) {
     return <h1>Please choose you pokemon first</h1>;

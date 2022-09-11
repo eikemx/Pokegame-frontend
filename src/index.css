@@ -46,20 +46,14 @@
   text-decoration: none;
 }
 
-/* .navbar {
-  margin-bottom: 5rem;
-} */
-
 /* Body */
 
 .poke-body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin: 2rem 0rem 5rem 0rem; */
 }
 .mainTitle {
-  /* margin-top: 15rem; */
   margin-bottom: 3rem;
 }
 
@@ -73,7 +67,6 @@
 /* Footer  */
 
 .poke-footer {
-  /* position: fixed; */
   display: flex;
   justify-content: center;
   margin-top: 5rem;
@@ -156,10 +149,6 @@
   font-weight: bold;
 }
 
-.pokelist {
-  border-radius: var(--card-border-radius);
-}
-
 .one-poke-fight {
   display: flex;
   justify-content: center;
@@ -195,6 +184,7 @@
   width: 80vw;
   gap: 20px;
   align-items: center;
+  justify-content: center;
 }
 
 .resultBtn {
@@ -222,7 +212,18 @@
   border: 5px solid red;
   margin-top: 20rem;
 }
-/* All Poke Carousel */
+
+  /* .onepoke-card {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .pokelist {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 50%;
+  } */
 
 @media (max-width: 768px) {
   .mainTitle {
@@ -248,6 +249,9 @@
   }
   .poke-fight {
     font-size: 2rem;
+  }
+  .one-poke-header {
+    font-size: 1.5rem;
   }
 }
 
@@ -276,5 +280,8 @@
   }
   .card.one-poke-card {
     width: 80%;
+  }
+  .matchCards {
+    flex-direction: column;
   }
 }
