@@ -8,8 +8,7 @@ if (NODE_ENV === "production") {
 } else {
   url = REACT_APP_DEVELOPMENT_URL
 }
-console.log(
-  `Currenty running in ${NODE_ENV} mode. The server URL used is: ${url}`
-);
+console.log(url);
+  // `Currenty running in ${NODE_ENV} mode. The server URL used is: ${url}`
 
 export default url;
