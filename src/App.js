@@ -131,7 +131,7 @@ export default App;
 //   setItemOffset(newOffset);
 // };
 
-{
+//{
   /* <ReactPaginate
       className="pagination py-4 justify-content-center"
       nextLabel="Next >"
@@ -152,4 +152,4 @@ export default App;
       pageRangeDisplayed={3}
       marginPagesDisplayed={4}
     /> */
-}
+//}
