@@ -2,7 +2,7 @@ import Card from "react-bootstrap/Card";
 import Row from 'react-bootstrap/Row';
 
 export default function Pokedex({pokemons}) {
-  // console.log(pokemons[1]);
+  console.log(pokemons[1]);
 
   return (
     <>

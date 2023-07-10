@@ -76,9 +76,6 @@ const Arena = ({ userPokemon, pokemons }) => {
           </Card.Body>
         </Card>
       </div>
-      {/* <div className="resultBtn" onClick={() => setResult(!showResult)}>
-        Find result
-      </div> */}
       <CalculateWinner
         userPokemon={findUserPokemon}
         enemyPokemon={findEnemyPokemon}

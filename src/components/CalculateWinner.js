@@ -1,7 +1,6 @@
 import React from "react";
 
 const CalculateWinner = ({ userPokemon, enemyPokemon }) => {
-  //is pokemon has more attack than oponent defence? if not it isn't shows up to battle
   const userEffectiveDamage =
     enemyPokemon.base.Defense / 2 - userPokemon.base.Attack;
   const enemyEffectiveDamage =
