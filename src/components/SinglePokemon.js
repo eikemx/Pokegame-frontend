@@ -74,7 +74,6 @@ const SinglePokemon = ({ pokemons, chosePokemon }) => {
       <Link
           to={`/arena`}
           className="one-poke-fight"
-          //for chosing pokemon
           onClick={chosePokemon}
           payload={id}
         >

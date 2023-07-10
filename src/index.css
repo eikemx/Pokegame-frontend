@@ -35,7 +35,6 @@
   padding: 10px;
   width: 50vw;
   max-height: 150px;
-  /* height: 170px; */
   background-color: var(--search-result-bg-color);
   box-shadow: rgba(0, 0, 0, 0.35);
   overflow: hidden;
@@ -212,18 +211,6 @@
   border: 5px solid red;
   margin-top: 20rem;
 }
-
-  /* .onepoke-card {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-  }
-  .pokelist {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    width: 50%;
-  } */
 
 @media (max-width: 768px) {
   .mainTitle {
