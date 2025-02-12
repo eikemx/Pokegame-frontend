@@ -42,7 +42,13 @@ const App = () => {
   };
 
   useEffect(() => {
-    fetch(`${serverURL}/pokemons`)
+    fetch(`${serverURL}/pokemons`, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      credentials: "include",
+    })
       .then((res) => res.json())
       .then((data) => {
         setPokemons(data);
