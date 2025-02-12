@@ -47,7 +47,7 @@ const App = () => {
       .then((data) => {
         setPokemons(data);
       })
-      .catch((err) => console.log({ fetchAllArticlesError: err.message }));
+      .catch((err) => console.log({ fetchAllPokemonError: err.message }));
   }, []);
 
   if (!pokemons) {

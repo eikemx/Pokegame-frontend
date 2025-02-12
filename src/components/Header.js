@@ -1,5 +1,5 @@
+import React from "react";
 import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../media/Logo.png";
 
@@ -14,13 +14,13 @@ function Header({ pokemons }) {
       >
         <Container className="navbar-items">
           <Navbar.Brand href="/">
-              <img
-                src={logo}
-                width="250"
-                height="45"
-                className="d-inline-block align-top"
-                alt="Pokemon fight logo"
-              />
+            <img
+              src={logo}
+              width="250"
+              height="45"
+              className="d-inline-block align-top"
+              alt="Pokemon fight logo"
+            />
           </Navbar.Brand>
           {/* <Nav className="ml-auto">
             <Nav.Link href="/">Home</Nav.Link>
