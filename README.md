@@ -66,23 +66,7 @@ The project is deployed and can be viewed at [https://poke-quartett.netlify.app/
 pokegame-frontend/
 ├── src/
 │ ├── components/
-│ │ ├── AllPokemons.js
-│ │ ├── Arena.js
-│ │ ├── CalculateWinner.js
-│ │ ├── Footer.js
-│ │ ├── Header.js
-│ │ ├── Pokedex.js
-│ │ ├── Search.js
-│ │ ├── searchResults.js
-│ │ ├── SinglePokemon.js
-│ │ └── Statistics.js
-│ ├── media/
-│ ├── App.css
-│ ├── App.js
-│ ├── bootstrap.min.css
-│ ├── index.css
-│ ├── index.js
-│ └── serverURL.js
+│ └── media/
 ├── public/
 └── README.md
 ```
@@ -115,7 +99,8 @@ pokegame-frontend/
 
 ## Contact
 - GitHub: [@eikemx](https://github.com/eikemx)
-- Project collaborator: [@yegor](https://github.com/yegor)
+- LinkedIn: [Eike Merx](https://www.linkedin.com/in/eike-merx-50b111216/)
+- XING: [Eike Merx](https://www.xing.com/profile/Eike_Merx/web_profiles)
 
 ## Acknowledgments
 - WBS Coding School
